@@ -14,21 +14,19 @@ class Inicio:
         self.usuario = StringVar()
         self.contraseña = StringVar()
 
-        mainFrame = ttk.Frame(root)
+        mainFrame = ttk.Frame(root, padding="10 40 10 15")
         mainFrame.grid(column= 1, row= 0)
 
         #Entrys
-        usuarioEntry = ttk.Entry(mainFrame,textvariable=self.usuario, width=30)
+        usuarioEntry = ttk.Entry(mainFrame,textvariable=self.usuario, width=50)
         usuarioEntry.grid(column=1, row=1)
-        contraseñaEntry = ttk.Entry(mainFrame,textvariable=self.contraseña, width=30)
+        contraseñaEntry = ttk.Entry(mainFrame,textvariable=self.contraseña, width=50)
         contraseñaEntry.grid(column=1,row=3)
 
         #Buttons
         ttk.Button(mainFrame, text = "Ingresar").grid(column= 1, row = 5, sticky=(E))
 
         #Labels
-        ttk.Label(mainFrame, text= " ").grid(column=0, row=0)
-        ttk.Label(mainFrame, text= " ").grid(column=0, row=1)
         ttk.Label(mainFrame, text= " ").grid(column=1, row=2)
         ttk.Label(mainFrame, text= " ").grid(column=1, row=4)
         ttk.Label(mainFrame, text= "Usuario: ").grid(column=0,row=1)
