@@ -6,7 +6,7 @@ root = Tk()
 etqTexto = ttk.Label(root, text= "Etiqueta de solo texto")
 etqTexto.grid()
 
-imagen = PhotoImage(file = 'python.png')
+imagen = PhotoImage(file = 'AnadeAr.png')
 
 etqImagen = ttk.Label(root)
 etqImagen.grid()
