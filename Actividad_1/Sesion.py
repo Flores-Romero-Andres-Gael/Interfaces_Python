@@ -19,17 +19,14 @@ class Inicio:
 
         #Entrys
         usuarioEntry = ttk.Entry(mainFrame,textvariable=self.usuario, width=50)
-        usuarioEntry.grid(column=1, row=1)
+        usuarioEntry.grid(column=1, row=1, pady=5)
         contraseñaEntry = ttk.Entry(mainFrame,textvariable=self.contraseña, width=50)
-        contraseñaEntry.grid(column=1,row=3)
+        contraseñaEntry.grid(column=1,row=3, pady=5)
 
         #Buttons
-        ttk.Button(mainFrame, text = "Ingresar").grid(column= 1, row = 5, sticky=(E))
+        ttk.Button(mainFrame, text = "Ingresar").grid(column= 1, row = 5, sticky=(E), pady=5)
 
         #Labels
-        ttk.Label(mainFrame, text= " ").grid(column=1, row=2)
-        ttk.Label(mainFrame, text= " ").grid(column=1, row=4)
-        ttk.Label(mainFrame, text= "Usuario: ").grid(column=0,row=1)
-        ttk.Label(mainFrame, text= " ").grid(column=0, row=2)
-        ttk.Label(mainFrame, text= "Contraseña: ").grid(column=0,row=3)
+        ttk.Label(mainFrame, text= "Usuario: ").grid(column=0,row=1,pady=5)
+        ttk.Label(mainFrame, text= "Contraseña: ").grid(column=0,row=3, pady=5)
 
