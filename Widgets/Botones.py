@@ -11,7 +11,7 @@ btnImagen = ttk.Button(root)
 btnImagen.grid()
 btnImagen ['image'] = imagen
 
-botonCombinada = ttk.Label(root, text="BotonCombinada", compound="center")
+botonCombinada = ttk.Label(root, text="My girlfriend", compound="center", background="blue", font=("arial", 15), foreground="blue")
 botonCombinada.grid()
 botonCombinada ['image'] = imagen
 

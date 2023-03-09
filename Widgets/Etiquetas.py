@@ -3,7 +3,7 @@ from tkinter import ttk
 
 
 root = Tk()
-etqTexto = ttk.Label(root, text= "Etiqueta de solo texto")
+etqTexto = ttk.Label(root, text= "Ana de armas", font="arial", foreground= "blue")
 etqTexto.grid()
 
 imagen = PhotoImage(file = 'AnadeAr.png')
@@ -12,7 +12,8 @@ etqImagen = ttk.Label(root)
 etqImagen.grid()
 etqImagen ['image'] = imagen
 
-etqCombinada = ttk.Label(root, text="etqCombinada", compound="center")
+#"compound = compuesta "
+etqCombinada = ttk.Label(root, text="My girlfriend", foreground= "blue", font= ("arial", 20), background = "blue", compound="center")
 etqCombinada.grid()
 etqCombinada ['image'] = imagen
 

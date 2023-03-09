@@ -20,7 +20,7 @@ class Inicio:
         #Entrys
         usuarioEntry = ttk.Entry(mainFrame,textvariable=self.usuario, width=50)
         usuarioEntry.grid(column=1, row=1, pady=5)
-        contraseñaEntry = ttk.Entry(mainFrame,textvariable=self.contraseña, width=50)
+        contraseñaEntry = ttk.Entry(mainFrame,textvariable=self.contraseña, width=50, show="")
         contraseñaEntry.grid(column=1,row=3, pady=5)
 
         #Buttons
