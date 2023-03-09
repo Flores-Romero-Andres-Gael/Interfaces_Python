@@ -46,8 +46,6 @@ NumeroEntry = ttk.Entry(mainFrame2, textvariable=nombreVar, width=26).grid(colum
 
 #----------------------------------LABELS------------------------------------
 
-#Primer Frame
-
 #Segundo Frame
 ttk.Label(mainFrame2, text= "Nombre: ").grid(column=0, row=0, pady= 5, sticky=(E))
 ttk.Label(mainFrame2, text= "A. Paterno: ").grid(column=0, row=1, pady= 5, sticky=(E))
