@@ -39,10 +39,10 @@ NumeroMovilVar = IntVar()
 #----------------------------------ENTRYS-------------------------------------
 #SegundoFrame
 NombreEntry = ttk.Entry(mainFrame2, textvariable=nombreVar, width=26).grid(column=1, row=0,pady=5)
-APaternoEntry = ttk.Entry(mainFrame2, textvariable=nombreVar, width=26).grid(column=1, row=1,pady=5)
-AMaternoEntry = ttk.Entry(mainFrame2, textvariable=nombreVar, width=26).grid(column=1, row=2,pady=5)
-CorreoEntry = ttk.Entry(mainFrame2, textvariable=nombreVar, width=26).grid(column=1, row=3,pady=5)
-NumeroEntry = ttk.Entry(mainFrame2, textvariable=nombreVar, width=26).grid(column=1, row=4,pady=5)
+APaternoEntry = ttk.Entry(mainFrame2, textvariable=APaternoVar, width=26).grid(column=1, row=1,pady=5)
+AMaternoEntry = ttk.Entry(mainFrame2, textvariable=AMaternoVar, width=26).grid(column=1, row=2,pady=5)
+CorreoEntry = ttk.Entry(mainFrame2, textvariable=CorreoVar, width=26).grid(column=1, row=3,pady=5)
+NumeroEntry = ttk.Entry(mainFrame2, textvariable=NumeroMovilVar, width=26).grid(column=1, row=4,pady=5)
 
 #----------------------------------LABELS------------------------------------
 
